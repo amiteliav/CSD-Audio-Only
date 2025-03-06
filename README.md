@@ -9,20 +9,17 @@ This repository contains the code for the **audio-only model** presented in the 
 
 ```bash
 CSD-Audio-Only/
-├── data/
-│   ├── ami/
-│   ├── alimeeting/
-│   └── chime5/
 ├── src/
-│   ├── models/
-│   ├── utils/
-│   ├── train.py
-│   └── predict.py
-├── checkpoints/
-├── results/
+│   ├── CSD_model.py
+│   └── Inference.py
 ├── README.md
 └── ...
 ```
+CSD_model: PyTorch implementation of our proposed Concurrent Speaker Detection (CSD) model.
+Inference: This file provides a demonstration of how to use the CSD model for inference. <br/>
+It includes code for generating a random input of the same shape as the model's expected input and then using the model to generate predictions. <br/>
+Additionally, it prints the model's summary.
+
 
 ## 📌 Overview
 This model classifies audio segments into three categories:
