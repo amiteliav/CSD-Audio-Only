@@ -6,7 +6,7 @@ This repository contains the code for the **audio-only model** presented in the 
 🔗 [Link to Paper (if available)]([#](https://ieeexplore.ieee.org/document/10715386))  
 
 ## 📌 Overview
-This model classifies audio segments into three categories:\\
+This model classifies audio segments into three categories:
 1️⃣ **Noise only**  
 2️⃣ **Single-speaker activity**  
 3️⃣ **Concurrent-speaker activity**  
