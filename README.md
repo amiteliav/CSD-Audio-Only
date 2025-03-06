@@ -13,6 +13,8 @@ This model classifies audio segments into three categories:
 
 The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstrating state-of-the-art results.  
 
+
+
 ## 📊 Results  
 We evaluated our model on **AMI, AliMeeting, and CHiME-5** datasets.  
 Here are some key results:
@@ -22,3 +24,18 @@ Here are some key results:
 | **Class 0** | 78%    | 20%    | 2%    |
 | **Class 1** | 9%    | 75%    | 16%   |
 | **Class 2** | 1%    | 37%    | 62%   |
+
+
+
+## 📄 Citation  
+If you use this work, please cite:
+@INPROCEEDINGS{10715386,
+  author={Eliav, Amit and Gannot, Sharon},
+  booktitle={2024 32nd European Signal Processing Conference (EUSIPCO)}, 
+  title={Concurrent Speaker Detection: A Multi-Microphone Transformer-Based Approach}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={897-901},
+  keywords={Training;Databases;Noise;Europe;Transformers;Data models;Calibration},
+  doi={10.23919/EUSIPCO63174.2024.10715386}}
