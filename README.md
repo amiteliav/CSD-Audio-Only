@@ -16,7 +16,7 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 
 Our primary focus is on Concurrent Speaker Detection (CSD), which classifies audio segments into the three classes above.
 For comparison with existing methods, we also evaluate our model on the related binary classification tasks:<br/>
-1️⃣ **Voice Activity Detection (VAD)**: Distinguishes between speech (either single or multiple speakers) and non-speech.  
+1️⃣ **Voice Activity Detection (VAD)**: Distinguishes between speech (single/multiple speakers) and non-speech.  
 2️⃣ **Overlapped Speech Detection (OSD)** : Identifies segments with overlapped versus non-overlapped speech.  
 
 
