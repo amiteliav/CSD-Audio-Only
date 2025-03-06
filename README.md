@@ -16,6 +16,13 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 
 
 ## Model Architecture - High Level
+The high-level architecture of our proposed model is presented in Fig. 1. It consists of three main blocks: Embedding, Transformer, and Classification.
+![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
+
+## Model Architecture - High Level
+![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
+
+## Model Architecture - High Level
 ![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
 
 
