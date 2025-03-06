@@ -9,21 +9,22 @@ This repository contains the code for the **audio-only model** presented in the 
 
 ```bash
 CSD-Audio-Only/
+├── doc/
+│   └── Figures/
 ├── src/
 │   ├── CSD_model.py
 │   └── Inference.py
 ├── README.md
 └── ...
 ```
-**CSD_model.py**: PyTorch implementation of our proposed CSD model.<br/>
-**Inference.py**: This file provides a demonstration of how to use the CSD model for inference. <br/>
+* **`doc/Figures/`**: Contains the figures used in this repository
+* **`CSD_model.py`**: PyTorch implementation of our proposed CSD model.<br/>
+* **`Inference.py`**: This file provides a demonstration of how to use the CSD model for inference. <br/>
 It includes code for generating a random input of the same shape as the model's expected input and then using the model to generate predictions.
 Additionally, it prints the model's summary.
 
-* **`doc/Figures/`**: This line explicitly states that the `Figures` folder within the `doc` directory holds the figures used in the repository.
-* **`CSD_model.py`**: 
-* **`inference.py`**: 
-* **`...`**: 
+
+
 
 
 ## 📌 Overview
