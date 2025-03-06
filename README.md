@@ -22,7 +22,7 @@ It consists of three main blocks: Embedding, Transformer, and Classification.<br
 1️⃣ The Transformer block captures complex relations within its input data.<br/>
 1️⃣ The Classification block maps the learned features to the final output predictions.<br/>
 <p align="center">
-  <img src="doc/Figures/model_arch_high_level.png" width="50%" alt="Model Architecture - High Level">
+  <img src="doc/Figures/model_arch_high_level.png" width="85%" alt="Model Architecture - High Level">
 </p>
 
 ## Model Architecture - Single-Channel Embedding Block
