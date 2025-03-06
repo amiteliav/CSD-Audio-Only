@@ -11,5 +11,4 @@ This model classifies audio segments into three categories:
 2️⃣ **Single-speaker activity**  
 3️⃣ **Concurrent-speaker activity**  
 
-
-We use a **Transformer-based model** adapted for **multi-microphone** audio input.
+The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstrating state-of-the-art results.  
