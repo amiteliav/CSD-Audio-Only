@@ -19,6 +19,7 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 ## 📄 Citation  
 If you use this work, please cite:
 
+  ```bibtex
 @INPROCEEDINGS{10715386,
   author={Eliav, Amit and Gannot, Sharon},
   booktitle={2024 32nd European Signal Processing Conference (EUSIPCO)}, 
