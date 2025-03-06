@@ -20,6 +20,11 @@ CSD-Audio-Only/
 It includes code for generating a random input of the same shape as the model's expected input and then using the model to generate predictions.
 Additionally, it prints the model's summary.
 
+* **`doc/Figures/`**: This line explicitly states that the `Figures` folder within the `doc` directory holds the figures used in the repository.
+* **`CSD_model.py`**: 
+* **`inference.py`**: 
+* **`...`**: 
+
 
 ## 📌 Overview
 This model classifies audio segments into three categories:
