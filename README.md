@@ -3,7 +3,7 @@
 
 This repository contains the code for the **audio-only model** presented in the paper:  
 📄 **"Concurrent Speaker Detection: A Multi-Microphone Transformer-Based Approach"**  
-🔗 [Link to Paper](https://ieeexplore.ieee.org/document/10715386) (EUSIPCO 2024)  
+🔗 [Link to Paper](https://ieeexplore.ieee.org/document/10715386) (Published in EUSIPCO 2024)  
 
 ## 📂 Repository Structure
 
