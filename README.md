@@ -19,8 +19,8 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 The high-level architecture of our proposed model is presented in the following figure.<br/>
 It consists of three main blocks: Embedding, Transformer, and Classification.<br/>
 1️⃣ The Embedding block linearly projects the input data and generates the input tokens for the Transformer model.<br/>
-1️⃣ The Transformer block captures complex relations within its input data.<br/>
-1️⃣ The Classification block maps the learned features to the final output predictions.<br/>
+2️⃣ The Transformer block captures complex relations within its input data.<br/>
+3️⃣ The Classification block maps the learned features to the final output predictions.<br/>
 <p align="center">
   <img src="doc/Figures/model_arch_high_level.png" width="85%" alt="Model Architecture - High Level">
 </p>
@@ -36,9 +36,15 @@ Each patch is then linearly projected to a dimension of 768, resulting in a tens
 
 
 ## Model Architecture - Multi-Channel Embedding Block
-![Model Architecture - High Level](doc/Figures/model_arch_patch_embed_multi_channel.png)
-
-
+For multi-channel processing, we apply single-channel embedding to each microphone signal and then combine them through concatenation (Type #1), which showed the best performance in our experiments.<br/>
+We evaluated three merging strategies: <br/>
+1️⃣ Type #1 - concatenation
+2️⃣ Type #2 - summation
+3️⃣ Type #3 - averaging with shared weights (Siamese networks)
+The figure illustrates how these merging operations can be implemented with either shared or distinct weights across channels.
+<p align="center">
+  <img src="doc/Figures/model_arch_patch_embed_multi_channel.png" width="60%" alt="Multi-Channel Embedding Block">
+</p>
 
 
 
