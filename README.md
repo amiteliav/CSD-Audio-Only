@@ -5,6 +5,25 @@ This repository contains the code for the **audio-only model** presented in the 
 📄 **"Concurrent Speaker Detection: A Multi-Microphone Transformer-Based Approach"**  
 🔗 [Link to Paper](https://ieeexplore.ieee.org/document/10715386)  
 
+## 📂 Repository Structure
+
+```bash
+CSD-Audio-Only/
+├── data/
+│   ├── ami/
+│   ├── alimeeting/
+│   └── chime5/
+├── src/
+│   ├── models/
+│   ├── utils/
+│   ├── train.py
+│   └── predict.py
+├── checkpoints/
+├── results/
+├── README.md
+└── ...
+
+
 ## 📌 Overview
 This model classifies audio segments into three categories:
 
@@ -50,7 +69,6 @@ The figure illustrates how these merging operations can be implemented with eith
 <p align="center">
   <img src="doc/Figures/model_arch_patch_embed_multi_channel.png" width="60%" alt="Multi-Channel Embedding Block">
 </p>
-
 
 
 
