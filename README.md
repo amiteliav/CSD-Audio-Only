@@ -15,7 +15,7 @@ This model classifies audio segments into three categories:
 The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstrating state-of-the-art results.  
 
 
-## Model Architecture
+## Model Architecture - High Level
 ![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
 
 
