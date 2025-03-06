@@ -26,7 +26,42 @@ Here are some key results:
 | **Class 1** | 9%    | 75%    | 16%   |
 | **Class 2** | 1%    | 37%    | 62%   |
 
+<table>
+  <tr>
+    <th>AMI</th>
+    <th>AliMeeting</th>
+    <th>CHiME-5</th>
+  </tr>
+  <tr>
+    <td>
 
+| True \ Pred | Class 0 | Class 1 | Class 2 |
+|------------|---------|---------|---------|
+| **Class 0** | 80%    | 18%    | 2%    |
+| **Class 1** | 10%    | 74%    | 16%   |
+| **Class 2** | 2%    | 35%    | 63%   |
+
+    </td>
+    <td>
+
+| True \ Pred | Class 0 | Class 1 | Class 2 |
+|------------|---------|---------|---------|
+| **Class 0** | 85%    | 13%    | 2%    |
+| **Class 1** | 7%    | 82%    | 11%   |
+| **Class 2** | 2%    | 28%    | 70%   |
+
+    </td>
+    <td>
+
+| True \ Pred | Class 0 | Class 1 | Class 2 |
+|------------|---------|---------|---------|
+| **Class 0** | 73%    | 21%    | 6%    |
+| **Class 1** | 19%    | 51%    | 30%   |
+| **Class 2** | 8%    | 33%    | 59%   |
+
+    </td>
+  </tr>
+</table>
 
 ## 📄 Citation  
 If you use this work, please cite:
