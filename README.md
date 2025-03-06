@@ -31,8 +31,10 @@ Our analysis shows a useful patch size of 257 x 8, as it jointly analyzes the en
 Each patch is then linearly projected to a dimension of 768, resulting in a tensor of shape #Patches x 768.
 ![Model Architecture - High Level](doc/Figures/model_arch_patch_embed_single_channel.png)
 
-<img src="doc/Figures/model_arch_patch_embed_single_channel.png" width="300" height="200" alt="Single-Channel Embedding Block">
 
+<p align="center">
+  <img src="doc/Figures/model_arch_patch_embed_single_channel.png" width="50%" alt="Single-Channel Embedding Block">
+</p>
 
 
 ## Model Architecture - Multi-Channel Embedding Block
