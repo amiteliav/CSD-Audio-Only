@@ -3,7 +3,7 @@
 
 This repository contains the code for the **audio-only model** presented in the paper:  
 📄 **"Concurrent Speaker Detection: A Multi-Microphone Transformer-Based Approach"**  
-🔗 [Link to Paper (if available)]([#](https://ieeexplore.ieee.org/document/10715386))  
+🔗 [Link to Paper (if available)](https://ieeexplore.ieee.org/document/10715386)  
 
 ## 📌 Overview
 This model classifies audio segments into three categories:
