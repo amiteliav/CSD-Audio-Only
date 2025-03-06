@@ -26,42 +26,53 @@ Here are some key results:
 | **Class 1** | 9%    | 75%    | 16%   |
 | **Class 2** | 1%    | 37%    | 62%   |
 
+
+
+
+## 📊 Confusion Matrices  
+
+<div style="display: flex; justify-content: space-between;">
+
+<!-- AMI Table -->
+<div style="width: 32%; text-align: center;">
+<strong>AMI Dataset</strong>
 <table>
-  <tr>
-    <th>AMI</th>
-    <th>AliMeeting</th>
-    <th>CHiME-5</th>
-  </tr>
-  <tr>
-    <td>
-
-| True \ Pred | Class 0 | Class 1 | Class 2 |
-|------------|---------|---------|---------|
-| **Class 0** | 80%    | 18%    | 2%    |
-| **Class 1** | 10%    | 74%    | 16%   |
-| **Class 2** | 2%    | 35%    | 63%   |
-
-    </td>
-    <td>
-
-| True \ Pred | Class 0 | Class 1 | Class 2 |
-|------------|---------|---------|---------|
-| **Class 0** | 85%    | 13%    | 2%    |
-| **Class 1** | 7%    | 82%    | 11%   |
-| **Class 2** | 2%    | 28%    | 70%   |
-
-    </td>
-    <td>
-
-| True \ Pred | Class 0 | Class 1 | Class 2 |
-|------------|---------|---------|---------|
-| **Class 0** | 73%    | 21%    | 6%    |
-| **Class 1** | 19%    | 51%    | 30%   |
-| **Class 2** | 8%    | 33%    | 59%   |
-
-    </td>
-  </tr>
+  <tr><th>True \ Pred</th><th>Class 0</th><th>Class 1</th><th>Class 2</th></tr>
+  <tr><td><strong>Class 0</strong></td><td>80%</td><td>18%</td><td>2%</td></tr>
+  <tr><td><strong>Class 1</strong></td><td>10%</td><td>74%</td><td>16%</td></tr>
+  <tr><td><strong>Class 2</strong></td><td>2%</td><td>35%</td><td>63%</td></tr>
 </table>
+</div>
+
+<!-- AliMeeting Table -->
+<div style="width: 32%; text-align: center;">
+<strong>AliMeeting Dataset</strong>
+<table>
+  <tr><th>True \ Pred</th><th>Class 0</th><th>Class 1</th><th>Class 2</th></tr>
+  <tr><td><strong>Class 0</strong></td><td>85%</td><td>13%</td><td>2%</td></tr>
+  <tr><td><strong>Class 1</strong></td><td>7%</td><td>82%</td><td>11%</td></tr>
+  <tr><td><strong>Class 2</strong></td><td>2%</td><td>28%</td><td>70%</td></tr>
+</table>
+</div>
+
+<!-- CHiME-5 Table -->
+<div style="width: 32%; text-align: center;">
+<strong>CHiME-5 Dataset</strong>
+<table>
+  <tr><th>True \ Pred</th><th>Class 0</th><th>Class 1</th><th>Class 2</th></tr>
+  <tr><td><strong>Class 0</strong></td><td>73%</td><td>21%</td><td>6%</td></tr>
+  <tr><td><strong>Class 1</strong></td><td>19%</td><td>51%</td><td>30%</td></tr>
+  <tr><td><strong>Class 2</strong></td><td>8%</td><td>33%</td><td>59%</td></tr>
+</table>
+</div>
+
+</div>
+
+
+
+
+
+
 
 ## 📄 Citation  
 If you use this work, please cite:
