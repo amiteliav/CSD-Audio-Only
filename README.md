@@ -11,7 +11,5 @@ This model classifies audio segments into three categories:
 2️⃣ **Single-speaker activity**  
 3️⃣ **Concurrent-speaker activity**  
 
-We use a **Transformer-based model** adapted for **multi-microphone** audio input.
 
-## 📁 Repository Structure  
-_(To be updated when code is added)_
+We use a **Transformer-based model** adapted for **multi-microphone** audio input.
