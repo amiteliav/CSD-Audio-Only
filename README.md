@@ -23,11 +23,16 @@ It consists of three main blocks: Embedding, Transformer, and Classification.<br
 1️⃣ The Classification block maps the learned features to the final output predictions.<br/>
 ![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
 
-## Model Architecture - High Level
-![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
 
-## Model Architecture - High Level
-![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
+## Model Architecture - Single-Channel Embedding Block
+The single-channel embedding block transforms the input data into tokens used by the Transformer block. <br/>
+The input log spectrum is split into patches with a 2-D learnable kernel with a stride set to 1. 
+According to our analysis, a useful patch size is 257x8, as it jointly analyzes the entire frequency axis.
+Each patch is then linearly projected to a dimension of 768, resulting in a tensor of shape #Patches x 768.
+![Model Architecture - High Level](doc/Figures/model_arch_patch_embed_single_channel.png.png)
+
+## Model Architecture - Multi-Channel Embedding Block
+![Model Architecture - High Level](doc/Figures/model_arch_patch_embed_multi_channel.png.png)
 
 
 
