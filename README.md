@@ -12,3 +12,13 @@ This model classifies audio segments into three categories:
 3️⃣ **Concurrent-speaker activity**  
 
 The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstrating state-of-the-art results.  
+
+## 📊 Results  
+We evaluated our model on **AMI, AliMeeting, and CHiME-5** datasets.  
+Here are some key results:
+
+| True \ Pred | Class 0 | Class 1 | Class 2 |
+|------------|---------|---------|---------|
+| **Class 0** | 78%    | 20%    | 2%    |
+| **Class 1** | 9%    | 75%    | 16%   |
+| **Class 2** | 1%    | 37%    | 62%   |
