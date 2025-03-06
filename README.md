@@ -16,7 +16,8 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 
 
 ## Model Architecture - High Level
-The high-level architecture of our proposed model is presented in Fig. 1. It consists of three main blocks: Embedding, Transformer, and Classification.
+The high-level architecture of our proposed model is presented in the following figure.<br/>
+It consists of three main blocks: Embedding, Transformer, and Classification.
 The Embedding block linearly projects the input data and generates the input tokens for the Transformer model.
 The Transformer block captures complex relations within its input data.
 The Classification block maps the learned features to the final output predictions.
