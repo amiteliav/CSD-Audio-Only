@@ -16,12 +16,9 @@ The method was evaluated on **AMI, AliMeeting, and CHiME-5** datasets, demonstra
 
 
 ## Model Architecture
+![Model Architecture - High Level](doc/Figures/model_arch_high_level.png)
 
-![Model Architecture](doc/Figures/model_arch_high_level.png)
 
-## MAP Comparison
-
-![MAP Comparison](images/map_comparison.png)
 
 
 
