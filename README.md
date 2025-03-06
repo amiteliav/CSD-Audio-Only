@@ -29,3 +29,11 @@ If you use this work, please cite:
   pages={897-901},
   keywords={Training;Databases;Noise;Europe;Transformers;Data models;Calibration},
   doi={10.23919/EUSIPCO63174.2024.10715386}}
+
+  ```bibtex
+@article{eliav202Xcsd,
+  author    = {Amit Eliav and Sharon Gannot},
+  title     = {Concurrent Speaker Detection: A Multi-Microphone Transformer-Based Approach},
+  journal   = {Conference/Journal Name},
+  year      = {202X}
+}
