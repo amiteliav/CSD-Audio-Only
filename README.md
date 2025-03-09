@@ -29,7 +29,7 @@ Additionally, it prints the model's summary.
 ## 📄 Presentation
 The presentation slides for this paper are available in the doc/ folder:
 Presentation_EUSIPCO_2024.pdf: Provides an overview of the research, methodology, and results presented in the paper and published at the EUSIPCO 2024 conference.
-
+🔗 [Presentation_EUSIPCO_2024.pdf](https://github.com/amiteliav/CSD-Audio-Only/blob/main/doc/Presentation_EUSIPCO_2024.pdf): Provides an overview of the research, methodology, and results presented in the paper and published at the EUSIPCO 2024 conference.
 
 ## 📌 Overview
 This model classifies audio segments into three categories:
