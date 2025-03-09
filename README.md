@@ -28,7 +28,7 @@ Additionally, it prints the model's summary.
 
 ## 📄 Presentation
 The presentation slides for this paper are available in the doc/ folder:
-presentation.pdf: Provides an overview of the research, methodology, and results presented in the paper and published at the EUSIPCO 2024 conference.
+Presentation_EUSIPCO_2024.pdf: Provides an overview of the research, methodology, and results presented in the paper and published at the EUSIPCO 2024 conference.
 
 
 ## 📌 Overview
