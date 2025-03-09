@@ -11,6 +11,7 @@ This repository contains the code for the **audio-only model** presented in the 
 CSD-Audio-Only/
 ├── doc/
 │   └── Figures/
+│   └── Presentation_EUSIPCO_2024.pdf
 ├── src/
 │   ├── CSD_model.py
 │   └── Inference.py
@@ -18,13 +19,16 @@ CSD-Audio-Only/
 └── ...
 ```
 * **`doc/Figures/`**: Contains the figures used in this repository
+* **`doc/Presentation_EUSIPCO_2024.pdf`**: Presentation slides for the paper, presented as a special session at EUSIPCO 2024.
 * **`CSD_model.py`**: PyTorch implementation of our proposed CSD model.<br/>
 * **`Inference.py`**: This file provides a demonstration of how to use the CSD model for inference. <br/>
 It includes code for generating a random input of the same shape as the model's expected input and then using the model to generate predictions.
 Additionally, it prints the model's summary.
 
 
-
+## 📄 Presentation
+The presentation slides for this paper are available in the doc/ folder:
+presentation.pdf: Provides an overview of the research, methodology, and results presented in the paper and published at the EUSIPCO 2024 conference.
 
 
 ## 📌 Overview
